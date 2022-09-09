@@ -5,6 +5,7 @@ This is an example about how to install golang to docker image.
 $ docker image prune
 ```
 ```
+```
 ### Build the app’s container image
 ``` Build with tag name is golang
 $ docker build -t golang .
