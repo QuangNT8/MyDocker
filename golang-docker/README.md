@@ -1,7 +1,6 @@
 
 This is an example about how to install golang to docker image.
 
-### Remove all docker images
 ```Remove all docker images
 $ docker image prune
 ```
