@@ -9,6 +9,7 @@ $ docker image prune
 ``` Build with tag name is golang
 $ docker build -t golang .
 ```
+### Push the image
 ```
 ``` login 
 $ docker login -u quang102
@@ -17,7 +18,6 @@ $ docker login -u quang102
 ``` docker tag
 $ docker tag golang quang102/myprojects:golang
 ```
-### Push the image
 ```
 ``` docker push
 $ docker push quang102/myprojects:golang
